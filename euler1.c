@@ -12,4 +12,5 @@ int main() {
 	}
 	printf("%d\n", soma);
 	return 0;
+	//result: 233168
 }

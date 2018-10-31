@@ -6,12 +6,17 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 #include <stdio.h>
 
 int main() {
-	int fib0 = 0, fib1 = 1;
-	for (int i = 2; i <= 10; i++) {
-		int tmp = fib0;
-      	fib0 = fib1;
-      	fib1 = tmp + fib1;
-   		printf("%d\n", fib1);
+	int fib1 = 1, fib2 = 2, sum = 0, cont = 0;
+	while (fib1 <= 4000000) {
+		if ((fib1 % 2) == 0 ) {
+      		sum = fib1 + sum;
+		}
+    	cont = fib1 + fib2;
+    	fib1 = fib2;
+    	fib2 = cont; 
    }
+	printf("%d\n", sum);
 	return 0;
+	//result: 4613732
 }
+
