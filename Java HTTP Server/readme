@@ -1,1 +1,1 @@
-
+Simple Web Server HTTP written in Java. The Web Server is set on port 8080, and when connected to the localhost:8080 through the browser HTTP responds with the current date and after that closes the connection and the socket.
