@@ -1,0 +1,6 @@
+Simple Unix Shell written in C to execute commands entered by the user, with the built in functions 'cd', 'help' and 'exit'.
+
+"In computing, a shell is a user interface for access to an operating system's services. It is named a shell because it is the outermost layer around the operating system kernel." - Wikipedia
+
+Reproduction of the Project "Write a Shell in C" by Stephen Brennan found at
+https://brennan.io/2015/01/16/write-a-shell-in-c/
