@@ -85,7 +85,7 @@
 		</div>
 
 		<?php		
-			$conexao = mysqli_connect("localhost", "root", "timmie159", "jogodavelha") or die("Não foi possível conectar ao banco de dados.".mysqli_connection_error());
+			$conexao = mysqli_connect("localhost", "root", "senha", "jogodavelha") or die("Não foi possível conectar ao banco de dados.".mysqli_connection_error());
 			if($conexao) {
 				echo "";
 				//Conexão bem sucedida
